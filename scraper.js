@@ -102,7 +102,7 @@ javascript:(function(){
         formData.append('url', d.url);
 
         try {
-            const GAS_URL = "你的_GAS_WEB_APP_URL_貼在這裡"; 
+            const GAS_URL = "https://script.google.com/macros/s/AKfycbzeyxhfqpJAx7mnpBmQty7OBfSFPNVogol9AD0ert00ya0YfEEO16GE4pJNu_6W_wWD/exec"; 
             const response = await fetch(GAS_URL, {
                 method: 'POST',
                 body: formData
