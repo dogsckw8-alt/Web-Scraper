@@ -66,5 +66,5 @@ def scrape_google_maps(url):
 
 if __name__ == "__main__":
   # 請替換成你想測試的 Google Maps 餐廳網址
-  test_url = "你的_Google_Maps_餐廳網址"
+  test_url = "https://www.google.com/maps/place/%E7%87%92%E8%82%89%E4%BA%AD+%E5%85%AD%E6%AD%8C%E4%BB%99+%E6%96%B0%E5%AE%BF%E8%A5%BF%E5%8F%A31%E8%99%9F%E5%BA%97/@35.6895726,139.6958154,17z/data=!3m2!4b1!5s0x60188cdb4a05cc2d:0xc85aa013a8bb71!4m6!3m5!1s0x60188cd700890879:0x3e5fd755a58636f3!8m2!3d35.6895683!4d139.698385!16s%2Fg%2F1w6_nttw?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
   scrape_google_maps(test_url)
