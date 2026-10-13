@@ -18,7 +18,7 @@ def scrape_tabelog():
         
         print(f"正在前往抓取：{target_url}")
         page.goto(target_url, timeout=60000)
-        page.wait_for_load_timeout(3000) # 等待頁面完全載入
+        page.wait_for_timeout(3000) # 修正為正確的 API
         
         # 抓取欄位資料
         data = {
