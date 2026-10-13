@@ -20,7 +20,8 @@ jobs:
       - name: 安裝相依套件與 Playwright
         run: |
           python -m pip install --upgrade pip
-          pip install requests playwright playwright-stealth
+          # 🔑 鎖定 playwright-stealth 版本為 1.0.6，完美支援 stealth_sync
+          pip install requests playwright playwright-stealth==1.0.6
           playwright install chromium
 
       - name: 執行爬蟲程式
